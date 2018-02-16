@@ -1,30 +1,9 @@
 function Mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
-	var numero;
-	numero=(Math.random()*(10-1)+1);
-	numero=parsenInt("numero");
-	if(numero>=9)
-	{
-		alert("excelente")
-	}	
-	else if(nota >=6) 
-	{
-		alert("muy bien")	
-	}
-	else if(numero>=4)
-	{
-		alert("bien")
-	}
-	else if(numero>=2)
-	
-	{
-		alert("mal")
-	}	
-	else if(numero>=0)
-	{
-		alert("desastroso")
-	}
-	
+	var numeros;
+	numeros=Math.floor(Math.random()*(10-1)+1);
 
-}//FIN DE LA FUNCIÓN
+	alert(numeros);
+
+}//FIN DE LA FUNCIÓN 
