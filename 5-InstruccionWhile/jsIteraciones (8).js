@@ -15,10 +15,19 @@ function Mostrar()
 			numero=prompt("numero");
 			numero=parseInt(numero);
 		}
-		while(numero>0)
+		if(numero>0)
 		{
-			positivo
+			positivo=positivo+numero;
+
 		}
+		else if (numero 1<0)
+		{
+			negativo=negativo-numero;
+			
+		}
+		respuesta=prompt
+
+		
 	}
 
 
