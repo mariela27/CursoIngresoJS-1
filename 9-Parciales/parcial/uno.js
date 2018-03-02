@@ -3,5 +3,5 @@ function Mostrar()
 {
 	var laBase;
 	laBase=document.getElementById("laBase").value
-	alert("perimetro: "+laBase*4);
+	alert("perimetro: "+laBase*3);
 }
