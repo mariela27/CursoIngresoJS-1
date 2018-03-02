@@ -2,12 +2,20 @@
 function Mostrar()
 {
 	alert("Funciona 3-EntradaSalida");
+	
 	var largo;
 	var ancho;
-	largo=parseInt(document.getElementById("largo").value);
-	ancho=parseInt(document.getElementById("ancho").value);
-	var perimetro=largo+ancho*2;
-	alert("se necesitan 6 de alambre "+  )
-	
+	var resultado;
+
+	largo=document.getElementById("largo").value
+	ancho=document.getElementById("ancho").value
+
+	largo=parseInt(largo);
+	ancho=parseInt(ancho);
+
+	perimetro = 2 * (ancho + largo);
+	resultado = 6 * perimetro
+	alert("se necesitan " +resultado+ " metros de alambre para rodear el perimetro");
+
 }
 

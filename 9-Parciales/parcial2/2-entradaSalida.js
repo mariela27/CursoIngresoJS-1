@@ -2,11 +2,15 @@
 function Mostrar()
 {
 	alert("Funciona 2-EntradaSalida");
+
+	
+
 	var importe;
-	importe=document.getElementById("importe").value
+	var precioFinal;
+	
 	importe=prompt("ingrese importe");
-	alert(importe*1.21);
-
-
+	precioFinal=importe*1.21;
+	document.getElementById("importe").value=precioFinal;
+	
 }
 

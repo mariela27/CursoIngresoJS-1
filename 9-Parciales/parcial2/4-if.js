@@ -2,6 +2,32 @@
 function Mostrar()
 {
 	alert("Funciona 4-if");
+
+	var numeroUno;
+	var numeroDos;
+	var resultado;
+	numeroUno=prompt("ingrese numero");
+	numeroUno=parseInt(numeroUno);
+	numeroDos=prompt("ingrese numero");
+	numeroDos=parseInt(numeroDos);
+	
+	if(numeroUno==numeroDos){
+	
+		resultado=numeroUno*numeroDos
+	}
+	else if(numeroUno>numeroDos){
+	
+
+		resultado=numeroUno-numeroDos
+			
+	}	
+	else if(numeroUno<numeroDos){
+	
+		
+		resultado=numeroUno+numeroDos;
+		
+	}
+	document.write(resultado)
+
 	
 }
-
