@@ -4,21 +4,20 @@ function Mostrar()
 	alert("Funciona 5-Switch");
 
 	var mesDelAño;
-	mesDelAño=prompt("ingresar mes");
-
+	mesDelAño=prompt("ingrese el mes");
 
 	switch(mesDelAño)
 	{
-		case "Enero":
-		case "Febrero":
-			alert("Veranito!!!!")
+		case "enero":
+		case "febrero":
+			alert("Veranito!!!!");
 			break;
 		default:
-			alert("extraño enero y febrero!!!")
+			alert("extraño enero y febrero!!!");
 			break;
-
-
 	}
+
+	
 
 	
 }
