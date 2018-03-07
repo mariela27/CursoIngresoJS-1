@@ -1,7 +1,25 @@
-function Mostrar()
+
+	function Mostrar()
 {
-	  var largo = parseInt(document.getElementById("alrgo").value);
-    var ancho = parseInt(document.getElementById("ancho").value);
-    alert("Para rodear 3 veces el terreno se necesitan " + (((largo + ancho)*2)*3) + " metros de alambre");
+
+	var largo;
+	var ancho;
+	var perimetro;
+	
+	largo=document.getElementById("alrgo").value
+	ancho=document.getElementById("ancho").value
+
+	largo=parseInt(largo);
+	ancho=parseInt(ancho);
+
+	perimetro=largo*2+ancho*2; //sus dos lados//
+	perimetro=perimetro*3;
+	alert("se necesitan " +perimetro+" metros de hilos para rodear su perimetro");
+
+
+
+
+
+
 
 }

@@ -1,24 +1,17 @@
 function Mostrar()
 {
-    var numeroUno;
-    var numeroDos;
-    var numerTres;
-    var numeroMayor;
+	var diaDeLaSemana;
+	diaDeLaSemana=prompt("ingrese el dia");
 
-    numeroUno=prompt("ingrese numero");
-    numeroDos=prompt("ingrese numero");
-    numeroTres=prompt("ingrese numero");
-    
-    numeroUno=parseInt(numeroUno);
-    numeroDos=parseInt(numeroDos);
-    numeroTres=parseInt(numeroTres);
-
-    if(numeroUno>numeroDos&&numeroDos>numeroTres)
-    {
-       numeroMayor
-    }
-    else if(numeroUno>numeroDos&&numeroDos>numeroTres)
-    {
-        alert("el numero mayor es " +numero)
-    }
+	switch(diaDeLaSemana)
+	{
+		case "sabado":
+		case "domingo":
+			alert("es fin de semana!!");
+			break;
+		default:
+			alert("a trabajar!!");
+			break;
+	}
+	
 }
